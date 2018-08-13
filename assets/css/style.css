@@ -38,6 +38,7 @@
 .gif-div {
     float:left;
     margin:20px;
+    text-align:center;
 }
 .gif {
     box-shadow:5px 5px 10px white;
