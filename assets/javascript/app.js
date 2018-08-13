@@ -7,7 +7,6 @@ var searchItem;
 function displayGIFs() {
 
     var countGIFs = $('#ddlCount option:selected').text();
-    console.log(countGIFs);
     var searchItem = $(this).attr("data-name");
     if(!searchItem)
         searchItem = searchTerm;
@@ -42,11 +41,11 @@ function displayGIFs() {
 
           var gifImage = $("<img>");
           gifImage.attr("src",result[i].images.fixed_height_still.url);
-          gifImage.attr("class","gif");
+          gifImage.attr("class","gif img-fluid");
           gifImage.attr("data-animate",result[i].images.fixed_height.url);
           gifImage.attr("data-still",result[i].images.fixed_height_still.url);
           gifImage.attr("data-state","still");
-
+          
           newDiv.append(gifImage);
           newDiv.append(ratingP);
           

@@ -40,8 +40,6 @@
     margin:20px;
 }
 .gif {
-    width:250px;
-    height:250px;
     box-shadow:5px 5px 10px white;
 }
 .gif:hover {
