@@ -1,0 +1,82 @@
+.container{
+    background: url("https://www.sportlink.com.br/wp-content/uploads/2017/03/grama-artificial-esportiva.jpg") fixed;
+}
+
+#heading{
+
+    font-size:60px;
+    font-weight:bolder;
+    color:white;
+    text-align:center;
+    padding:30px 30px 5px 30px;
+    text-shadow: 3px 3px 4px rgb(34, 60, 117);
+}
+
+#button-area {
+    padding:20px;
+    text-align:center;
+}
+.btn{
+    background:white;
+    color:rgb(34, 60, 117);
+    margin:5px;
+    margin-left:0px;
+    box-shadow:3px 3px 4px rgb(34, 60, 117);
+
+}
+.btn:hover{
+    background:rgb(34, 60, 117);
+    color:white;
+}
+
+.sport {
+    width:150px;
+
+}
+.gif-div {
+    float:left;
+    margin:20px;
+}
+.gif {
+    width:250px;
+    height:250px;
+    border-radius:100%;
+    box-shadow:3px 3px 5px blue;
+}
+.gif:hover {
+    cursor:pointer;
+}
+p{
+    text-align:center;
+}
+
+#form-area {
+    padding:20px;
+    padding-top:10px;
+    text-align:center;
+}
+
+
+#gif-area {
+    padding-left:5%;
+}
+
+.initial {
+    background:rgb(34, 60, 117);
+    border-radius:100%;
+    padding:10px;
+    color:white;
+    margin:10px;
+}
+
+#pagination-area {
+    padding-left:27%;
+}
+#count-area {
+    padding-left:20px;
+    padding-right:20px;
+}
+#submit-sport {
+    width:50%;
+}
+
